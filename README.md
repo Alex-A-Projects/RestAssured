@@ -33,3 +33,25 @@ The goal was to understand end-to-end API automation — from test design and da
 
 ## 🧩 Project Structure  
 
+RestAssured/
+├── src/
+│ ├── main/java/ # Framework utilities
+│ └── test/java/ # Test classes (API tests)
+├── testData/ # Test data files (JSON, Excel, etc.)
+├── logs/ # Log files (generated automatically)
+├── reports/ # Allure or HTML reports
+├── test-output/ # TestNG default output
+├── pom.xml # Maven project descriptor
+├── testng.xml # Test suite configuration
+└── README.md
+
+🧠 Learning Outcomes
+
+Through this project, I learned:
+Setting up an API testing framework from scratch.
+Building clean, reusable code structures.
+Managing API request/response validations.
+Using TestNG annotations and suites.
+Implementing Allure Reports for professional output.
+Integrating logs with Log4j for better debugging.
+
