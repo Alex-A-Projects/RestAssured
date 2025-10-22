@@ -1,0 +1,6 @@
+*.xml linguist-detectable=false
+*.html linguist-detectable=false
+*.json linguist-detectable=false
+*.properties linguist-detectable=false
+*.xlsx linguist-detectable=false
+*.log linguist-detectable=false
