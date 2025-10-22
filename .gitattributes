@@ -4,3 +4,4 @@
 *.properties linguist-detectable=false
 *.xlsx linguist-detectable=false
 *.log linguist-detectable=false
+*.css linguist-detectable=false
