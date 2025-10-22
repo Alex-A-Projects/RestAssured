@@ -33,17 +33,23 @@ The goal was to understand end-to-end API automation — from test design and da
 
 ## 🧩 Project Structure  
 
-RestAssured/
-├── src/
-│ ├── main/java/ # Framework utilities
-│ └── test/java/ # Test classes (API tests)
-├── testData/ # Test data files (JSON, Excel, etc.)
-├── logs/ # Log files (generated automatically)
-├── reports/ # Allure or HTML reports
-├── test-output/ # TestNG default output
-├── pom.xml # Maven project descriptor
-├── testng.xml # Test suite configuration
-└── README.md
+## 📁 Project Structure
+
+| Path / Folder | Description |
+|----------------|-------------|
+| `src/main/java/` | Framework utilities, base classes, helper methods |
+| `src/test/java/` | API test classes and test logic |
+| `testData/` | Test data files (JSON, Excel, CSV, etc.) |
+| `logs/` | Log files generated during test execution |
+| `reports/` | Allure or HTML test reports |
+| `test-output/` | Default TestNG output directory |
+| `pom.xml` | Maven configuration file with project dependencies |
+| `testng.xml` | TestNG suite configuration file |
+| `README.md` | Project documentation file |
+
+---
+
+
 
 🧠 Learning Outcomes
 
